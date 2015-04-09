@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/nodejs
+FROM andreasm/nodejs
 
 # Install Bower & Gulp
 RUN npm install -g bower gulp
